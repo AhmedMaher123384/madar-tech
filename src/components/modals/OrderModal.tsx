@@ -416,7 +416,7 @@ const OrderModal: React.FC<OrderModalProps> = ({ order, isOpen, onClose, onStatu
             <div class="footer">
               <p>🙏 شكراً لك على ثقتك في after ads</p>
               <p>📞 للاستفسارات: 966501234567+</p>
-              <p>📧 البريد الإلكتروني: support@crystelio.com</p>
+              <p>📧 البريد الإلكتروني: info@madartech.com</p>
               <p>🌐 الموقع الإلكتروني: www.crystelio.com</p>
             </div>
           </div>

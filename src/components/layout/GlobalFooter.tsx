@@ -34,8 +34,8 @@ const GlobalFooter: React.FC = () => {
 
   // معلومات الاتصال
   const contactInfo = [
-    { icon: Phone, label: "540074405", href: "tel:540074405" },
-    { icon: Mail, label: "support@crystelio.com", href: "mailto:support@crystelio.com" },
+    { icon: Phone, label: "590073905", href: "tel:590073905" },
+    { icon: Mail, label: "info@madartech.com", href: "mailto:info@madartech.com" },
     { icon: MapPin, label: "الرياض، المملكة العربية السعودية", href: "#" },
   ];
 
