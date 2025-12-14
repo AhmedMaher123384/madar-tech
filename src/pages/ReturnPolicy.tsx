@@ -15,34 +15,35 @@ const ReturnPolicy: React.FC = () => {
         {
           heading: 'شروط الاسترجاع والاستبدال',
           items: [
-            '1- ارجاع المنتج إلى حالته الأصلية التي كانت عند التسليم ويجب ألّا يكون قد تم استخدامه',
+            '1- يجب أن يكون الجهاز غير مستخدم وغير مُفعّل، ولم يتم تسجيل الدخول بأي حساب (iCloud/Google) أو تعيين قفل/بصمة، مع بقاء الأختام والملصقات الأصلية وجميع الملحقات داخل العلبة',
             '2- يجب على العميل إبلاغ فريق المتجر الإلكتروني عبر البريد الإلكتروني أو دعم الواتساب خلال فترة لا تزيد عن 3 أيام من تاريخ استلام الصنف الخاطئ أو طلب الاسترجاع مع ذكر سبب الاستبدال أو الاسترجاع',
-            '3- يمكن الاسترجاع والاستبدال إذا كان الصنف بنفس حالته الأصلية عند الشراء ومغلفًا بالتغليف الأصلي الخاص بمتجر اجواءك للإكسسوارات، وفي حال تمت الموافقة يتم إرسال الطلب من قبل العميل خلال مدة لا تتجاوز 5 أيام',
-            '4- الاستبدال والاسترجاع يكون مجانًا في حالة الأصناف المرسلة للعميل وبها خطأ أو التي بها عيب مصنعي مثل: تسلمت منتجًا غير الذي قمت بطلبه، أو تسلمت منتجًا تالفًا أو معيبًا',
+            '3- يمكن الاسترجاع والاستبدال إذا كان الصنف بنفس حالته الأصلية عند الشراء ومغلفًا بالتغليف الأصلي الخاص بالمتجر؛ وفي حال تمت الموافقة يتم إرسال الطلب من قبل العميل خلال مدة لا تتجاوز 5 أيام',
+            '4- الاستبدال والاسترجاع يكون مجانًا في حالة الأصناف المرسلة للعميل وبها خطأ أو التي بها عيب مصنعي مثل: تسلمت منتجًا غير الذي قمت بطلبه، أو تسلمت منتجًا تالفًا أو معيبًا (وفق تقرير مركز خدمة معتمد إن لزم)',
             '5- يتم استرداد نفس أصل المبلغ المطبوع على إيصال/فاتورة الشراء (ملخص الطلب) بدون مصاريف الشحن أو رسوم الجمارك والضرائب',
             '6- في الحالات الأخرى للاستبدال أو الاسترجاع (بخلاف ما تم ذكره) يتحمل العميل تكلفة الشحن',
-            '7- الاسترجاع طبقًا للشروط المذكورة خلال 3 أيام من تاريخ استلام العميل للشحنة، والاستبدال خلال 5 أيام من تاريخ الاستلام، ولن يُنظر في أي طلب بعد انتهاء المدة المحددة'
+            '7- الأجهزة المفتوحة أو المُفعّلة أو التي تم العبث بها غير قابلة للإرجاع إلا في حال ثبوت عيب مصنعي وفق سياسة الضمان',
+            '8- الاسترجاع طبقًا للشروط المذكورة خلال 3 أيام من تاريخ استلام العميل للشحنة، والاستبدال خلال 5 أيام من تاريخ الاستلام، ولن يُنظر في أي طلب بعد انتهاء المدة المحددة'
           ]
         },
         {
           heading: 'أجور الشحن والنقل غير قابلة للاسترداد',
           items: [
             'إذا كان سبب الإرجاع أن العميل لم يعجبه الصنف، والمنتج ما زال بنفس حالته الأصلية التي تم شحنه عليها، في هذه الحالة يتحمل العميل تكاليف الشحن',
-            'إذا كانت أسباب الاسترجاع هي أصناف خاطئة تم شحنها، يتحمل متجر اجواءك للإكسسوارات تكلفة الشحن'
+            'إذا كانت أسباب الاسترجاع هي أصناف خاطئة تم شحنها، يتحمل المتجر تكلفة الشحن'
           ]
         },
         {
           heading: 'شروط استرداد المبالغ',
           items: [
             'يتم استرداد قيمة الأصناف التي يتم إرجاعها خلال 10 أيام من تاريخ الشراء بالنسبة للشراء النقدي (الدفع عند الاستلام)، وبالنسبة للشراء عن طريق البطاقة الائتمانية تُضاف القيمة إلى بطاقة المشتري بعد 15 يومًا من تاريخ الشراء',
-            'مطلوب منك إرجاع الأصناف المشتراة بوسيلة شحن مؤمنة وموثوقة لضمان توصيل سليم وموثق إلى عنوان متجر اجواءك للإكسسوارات'
+            'مطلوب منك إرجاع الأصناف المشتراة بوسيلة شحن مؤمنة وموثوقة لضمان توصيل سليم وموثق إلى عنوان المتجر'
           ]
         },
         {
           heading: 'عمليات الشراء • معالجة الطلبات',
           items: [
-            'اجواءك للإكسسوارات، وفقًا لتقديرها، قد تختار معالجة أو إلغاء طلبك في ظروف معينة (مثل نفاد المخزون، تسعير خاطئ، أو الاشتباه في الاحتيال)، أو أي ظروف أخرى تُراها مناسبة وفقًا لتقديرها',
-            'تحتفظ اجواءك أيضًا بالحق، وفقًا لتقديرها، باتخاذ خطوات للتحقق من هويتك لمعالجة طلبك',
+            'قد يختار المتجر، وفقًا لتقديره، معالجة أو إلغاء طلبك في ظروف معينة (مثل نفاد المخزون، تسعير خاطئ، أو الاشتباه في الاحتيال)، أو أي ظروف أخرى تُراها مناسبة وفقًا لتقديره',
+            'يحتفظ المتجر أيضًا بالحق، وفقًا لتقديره، باتخاذ خطوات للتحقق من هويتك لمعالجة طلبك',
             'لن يتم فرض رسوم عليك أو سيتم رد الرسوم للطلبات التي لم يتم معالجتها أو التي تم إلغاؤها'
           ]
         }
@@ -53,34 +54,35 @@ const ReturnPolicy: React.FC = () => {
       {
         heading: 'Return & Exchange Conditions',
         items: [
-          '1- The product must be returned in its original condition as delivered and must not be used',
-          '2- The customer must notify the store team via email or WhatsApp support within 3 days of receiving the wrong item or requesting a return, stating the reason for exchange or return',
-          '3- Return and exchange are allowed if the item is in its original condition at purchase and sealed in Ajwak Accessories’ original packaging. Once approved, the customer must ship the item within 5 days',
-          '4- Exchange and return are free if the shipped item contains a mistake or a manufacturing defect, such as receiving the wrong product or a damaged/defective product',
+          '1- The device must be unopened and unactivated, with no iCloud/Google account login or lock/biometric setup, and with original seals and labels intact; all accessories must be inside the box',
+          '2- The customer must notify the store team via email or WhatsApp within 3 days of receiving a wrong item or requesting a return, stating the reason for exchange or return',
+          '3- Return/exchange is allowed if the item is in its original condition at purchase and sealed in the store’s original packaging. Once approved, the customer must ship the item within 5 days',
+          '4- Exchange/return is free when a wrong item is shipped or a manufacturing defect is confirmed (service center report may be required)',
           '5- Refunds are issued for the original amount shown on the receipt/invoice (order summary), excluding shipping costs, customs fees, and taxes',
-          '6- In other cases of exchange or return (other than those mentioned), the customer bears the shipping cost',
-          '7- Returns must be requested within 3 days of receiving the shipment, and exchanges within 5 days. Any request after the specified period will not be considered'
+          '6- In other cases of exchange/return (other than the above), the customer bears the shipping cost',
+          '7- Opened or activated devices or those tampered with are not eligible for return unless a manufacturing defect is confirmed under warranty policy',
+          '8- Returns must be requested within 3 days of receiving the shipment; exchanges within 5 days. Any request after the specified period will not be considered'
         ]
       },
       {
         heading: 'Shipping Costs Policy',
         items: [
           'If the reason for return is that the customer didn’t like the item and the product remains in its original shipped condition, the customer bears the shipping costs',
-          'If the return reason is due to wrong items shipped, Ajwak Accessories bears the shipping cost'
+          'If the return reason is due to wrong items shipped, the store bears the shipping cost'
         ]
       },
       {
         heading: 'Refund Conditions',
         items: [
           'Refunds for returned items are processed within 10 days for cash-on-delivery purchases; for credit card purchases, the amount is credited to the customer’s card within 15 days from the purchase date',
-          'You must return items using a reliable, insured shipping method to ensure proper and documented delivery to Ajwak Accessories’ address'
+          'You must return items using a reliable, insured shipping method to ensure proper and documented delivery to the store’s address'
         ]
       },
       {
         heading: 'Purchase Operations • Order Processing',
         items: [
-          'Ajwak Accessories, at its discretion, may process or cancel your order under certain circumstances (e.g., product out of stock, mispricing, suspected fraud), or any other circumstances it deems appropriate',
-          'Ajwak also reserves the right, at its discretion, to take steps to verify your identity for order processing',
+          'The store, at its discretion, may process or cancel your order under certain circumstances (e.g., product out of stock, mispricing, suspected fraud), or any other circumstances it deems appropriate',
+          'The store also reserves the right, at its discretion, to take steps to verify your identity for order processing',
           'You will either not be charged or will be refunded for orders not processed or cancelled'
         ]
       }
