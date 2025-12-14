@@ -1,0 +1,59 @@
+[
+  {
+    "id": 5001,
+    "name": { "ar": "آخر العروض", "en": "Latest Offers" },
+    "description_ar": "عروض حصرية على الخواتم والأساور والقلائد والأقراط. اختيارات منتقاة بعناية مع تخفيضات محدودة المدة وباقات هدايا جاهزة.",
+    "description_en": "Exclusive deals on rings, bracelets, necklaces, and earrings. Curated picks with limited-time savings and ready-to-gift bundles.",
+    "type": "manual",
+    "isActive": true,
+    "image": "/images/collections/last-offers.jpg",
+    "products": [
+      20001,
+      20004,
+      21001,
+      21003,
+      22001,
+      22004,
+      23007,
+      23006,
+      24001,
+      24004
+    ]
+  },
+  {
+    "id": 5003,
+    "name": { "ar": "أحدث المنتجات", "en": "Latest Products" },
+    "description_ar": "أحدث الإصدارات من تشكيلتنا: تصميمات جديدة من الخواتم والأساور والقلائد، ترند الموسم بخامات عالية الجودة.",
+    "description_en": "Newest arrivals from our collection: fresh designs in rings, bracelets, and necklaces crafted with high-quality materials.",
+    "type": "manual",
+    "isActive": true,
+    "image": "/images/collections/white-friday.jpg",
+    "products": [
+      21002,
+      27005,
+      26002,
+      24005,
+      23002,
+      25004
+    ]
+  }
+  ,
+  {
+    "id": 5002,
+    "name": { "ar": "الجمعة البيضاء", "en": "white friday" },
+    "description_ar": "أحدث الإصدارات من تشكيلتنا: تصميمات جديدة من الخواتم والأساور والقلائد، ترند الموسم بخامات عالية الجودة.",
+    "description_en": "Newest arrivals from our collection: fresh designs in rings, bracelets, and necklaces crafted with high-quality materials.",
+    "type": "manual",
+    "isActive": true,
+    "image": "/images/collections/white-friday.jpg",
+    "products": [
+   
+      24005,
+      22004,
+      23001,
+      23004,
+      24001,22005
+      ,26003
+    ]
+  }
+]
